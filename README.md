@@ -1,4 +1,4 @@
-# Tournament Director
+# Poker Tournament Director
 
 Système de gestion de tournois de poker en temps réel, construit sur une architecture microservices événementielle.
 
@@ -71,9 +71,14 @@ PORT=8080
 
 Cloner le dépôt ou télécharger les fichiers.
 
+Se placer dans le projet
+```bash
+cd poker-tournament-director
+```
+
 ### Back
 
-1. Se placer dans le dossier `tournament-director` :
+1. Se placer dans le dossier back `tournament-director` :
 ```bash
 cd tournament-director
 ```
