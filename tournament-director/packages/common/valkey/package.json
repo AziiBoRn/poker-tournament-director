@@ -1,0 +1,8 @@
+{
+  "name": "common-valkey",
+  "version": "1.0.0",
+  "main": "valkey.js",
+  "dependencies": {
+    "ioredis": "^5.4.0"
+  }
+}

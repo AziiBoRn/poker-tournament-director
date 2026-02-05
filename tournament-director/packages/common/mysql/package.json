@@ -1,0 +1,10 @@
+{
+  "name": "common-mysql",
+  "version": "1.0.0",
+  "main": "mysql.js",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mysql2": "^3.15.3",
+    "sequelize": "^6.37.1"
+  }
+}

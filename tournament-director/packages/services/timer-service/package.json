@@ -1,0 +1,32 @@
+{
+  "name": "timer-service",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js | pino-pretty",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@fastify/websocket": "10.0.1",
+    "common-kafka": "workspace:*",
+    "common-mysql": "workspace:*",
+    "common-types": "workspace:*",
+    "common-valkey": "workspace:*",
+    "dotenv": "^16.4.5",
+    "fastify": "^4.26.2",
+    "fastify-plugin": "^4.5.1",
+    "fastify-type-provider-zod": "^1.1.9",
+    "ioredis": "^5.3.2",
+    "mysql2": "^3.9.2",
+    "redlock": "5.0.0-beta.2",
+    "sequelize": "^6.37.1",
+    "socket.io": "^4.7.4",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "pino-pretty": "^10.3.1",
+    "vitest": "^4.0.17"
+  }
+}
