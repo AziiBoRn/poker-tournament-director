@@ -2,6 +2,10 @@
 
 Système de gestion de tournois de poker en temps réel, construit sur une architecture microservices événementielle.
 
+Tout utilisateur pourra créer son tournoi avec une blind, y ajouter des joueurs, qui seront répartis dans des tables de manières uniforme.
+
+Il pourra ensuite démarrer la parti, cela affichera un minuteur (un tick backend avec lock Redis), mais aussi supprimer des joueurs, ce qui rechangera les tables si besoin.
+
 ## Architecture Globale
 
 Le projet est divisé en plusieurs microservices autonomes qui communiquent de trois manières :
@@ -147,7 +151,7 @@ docker compose down -v
 yarn workspace <nom-du-service> start
 ```
 
-## 🧩 Microservices
+## Microservices
 
 | Service                   | Port   | Rôle                                                                                       |
 |---------------------------|--------|--------------------------------------------------------------------------------------------|
